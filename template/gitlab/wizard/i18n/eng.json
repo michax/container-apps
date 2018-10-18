@@ -5,6 +5,7 @@
   "GITLAB_WEB_HOST_PORT_DESC": "The port of the GitLab server. Defaults to 10080.",
   "GITLAB_SSH_HOST_PORT_DESC": "The ssh port number. Defaults to 10022.<div>Please note that HTTP Port and SSH Port must be different.</div>",
   "GITLAB_CONFIGURE": "Configure Gitlab",
+  "GITLAB_HOST_DESC": "Gitlab Host (default: localhost)",
 
   "SERVICE_MANAGEMENT": "Service Management",
   "SERVICE_ENTRY": "Service entrypoint",
