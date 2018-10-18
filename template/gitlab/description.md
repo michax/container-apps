@@ -1,3 +1,5 @@
+## Animuj Custom Gitlab Template
+
 ## Prerequisites 
 Your docker host needs to have 2 cores CPU and 8GB RAM to run GitLab. Please refer to the GitLab <a href="https://docs.gitlab.com/ee/install/requirements.html#hardware-requirements" target="_blank">hardware requirements</a> documentation for additional information.
 
