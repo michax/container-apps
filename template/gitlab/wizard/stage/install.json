@@ -9,16 +9,22 @@
           "type": "integer",
           "title": "HTTP Port",
           "description": "{{GITLAB_WEB_HOST_PORT_DESC}}",
-		  "required": true,
+	  "required": true,
           "maximum": 65535
         },
         "ssh_port": {
           "type": "integer",
           "title": "SSH Port",
           "description": "{{GITLAB_SSH_HOST_PORT_DESC}}",
-		  "required": true,
+	  "required": true,
           "maximum": 65535
-        }
+        },
+	"host": {
+          "type": "string",
+          "title": "Host",
+          "description": "Gitlab Host",
+	  "required": false
+        }      
       },
       "form": [
         "*"
@@ -36,6 +42,10 @@
       "ssh_port": [
         "gitlab.environment.GITLAB_SSH_PORT",
         "gitlab.ports[1]"
+      ],
+      "host": [
+        "gitlab.environment['GITLAB_HOST']",
+	"gitlab.environment.GITLAB_HOST"
       ]
     }
   }
